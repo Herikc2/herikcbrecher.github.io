@@ -1216,6 +1216,53 @@ header .logo a {
 	transform: rotate(-45deg);
 }
 
+.multi-lang {
+	box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    height: 64px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 16px;
+	position: fixed;
+	right: 20pt;
+	color: #fff;
+}
+
+.multi-lang-list{
+	margin-top: 45pt;
+}
+
+.multi-op a  {
+	text-decoration: none;
+	color: #fff;
+}
+
+.multi-op {
+	box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+	list-style-type: none;
+}
+
+.multi-op a:hover{
+	color: #2340F5;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
 /* navigation panel */
 #main-nav-wrap {
 	display: block;
